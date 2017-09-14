@@ -6,10 +6,10 @@
 #### cueVideo
 - 지정한 동영상의 미리보기 이미지를 로드하고 플레이어가 동영상을 재생하도록 준비하지만 play()를 호출하기 전에는 동영상 스트림을 다운로드하지 않음.
 ```java
-    @Override
-    public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-        youTubePlayer.cueVideo("IA1hox-v0jQ");
-    }
+@Override
+   public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
+   youTubePlayer.cueVideo("IA1hox-v0jQ");
+}
 ```
 
 #### YouTubePlayer.Provider
